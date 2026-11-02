@@ -1121,7 +1121,7 @@ class ContractApp(ctk.CTk):
         )
         patronymic_entry.grid(row=row_idx, column=1, sticky="ew", pady=6)
         self.add_name_entries["patronymic"] = patronymic_entry
-        if entity_type == "add_unit":
+        if entity_type == "unit":
             row_idx += 1
             ctk.CTkLabel(
                 form,
